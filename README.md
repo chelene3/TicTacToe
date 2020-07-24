@@ -1,4 +1,4 @@
-This is a repository for a tic tac toe mobile game. As I learn to develop with Swift, this is one of the sample projects that I am trying on my own as I develop with other lessons. 
+This is a repository for a simple Tic Tac Toe mobile game. As I learn to develop with Xcode and Swift, this is one of the sample projects that I am trying on my own as I develop with other lessons. 
 
 Goals:
 1. Create a visually-correct game (adheres to formatting and can rotate the screen)
