@@ -7,4 +7,8 @@ Goals:
 4. Able to end the game if someone wins
 
 Original design (7/23):
-<insert image of design>
+
+
+<img
+src= "Screen Shot 2020-07-23 at 11.33.55 PM.png"
+/>
