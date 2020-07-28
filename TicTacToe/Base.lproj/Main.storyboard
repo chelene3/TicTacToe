@@ -207,13 +207,30 @@
                                     <constraint firstAttribute="trailing" secondItem="gM3-VL-CaF" secondAttribute="trailing" id="c8X-Hu-ar3"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-aV-Ko8">
+                                <rect key="frame" x="107" y="373" width="200" height="150"/>
+                                <color key="backgroundColor" red="1" green="0.7843137255" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0ed-94-nXq"/>
+                                    <constraint firstAttribute="height" constant="150" id="Zag-Hk-hZg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                <state key="normal" title="Play Again? ">
+                                    <color key="titleColor" red="0.13725490200000001" green="0.34901960780000002" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8w-Sh-Pi9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="hKv-aV-Ko8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1fp-5N-hIE"/>
                             <constraint firstItem="VdX-qZ-Epc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2H7-5x-nOF"/>
                             <constraint firstItem="VdX-qZ-Epc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2ez-va-s90"/>
                             <constraint firstAttribute="bottom" secondItem="VdX-qZ-Epc" secondAttribute="bottom" id="BXi-5t-rmI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="77C-Ax-10I" secondAttribute="bottom" constant="5" id="It8-oS-UcH"/>
+                            <constraint firstItem="hKv-aV-Ko8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YAO-VA-pvv"/>
                             <constraint firstItem="VdX-qZ-Epc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bsw-7o-apC"/>
                             <constraint firstItem="77C-Ax-10I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f1Z-Ml-wkj"/>
                             <constraint firstItem="77C-Ax-10I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fGl-oC-uCy"/>
@@ -233,6 +250,7 @@
                         <outlet property="TL" destination="EEe-vm-Rvm" id="Cxz-tL-adt"/>
                         <outlet property="TM" destination="GhI-Pu-7RQ" id="MLX-iN-0yu"/>
                         <outlet property="TR" destination="TUQ-dV-DYO" id="PKo-23-fsZ"/>
+                        <outlet property="newGame" destination="hKv-aV-Ko8" id="a3h-i9-tDk"/>
                         <outlet property="titleLabel" destination="8gd-c8-Z4G" id="1TT-3W-rJX"/>
                     </connections>
                 </viewController>
