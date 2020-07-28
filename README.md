@@ -21,3 +21,5 @@ Created a "New Game" button that pops up once the game has been won (or there's 
 
 To Do:
 - Not allow the users to keep pressing the buttons after the game has been won 
+
+<add images for the 2 ways that the game ends (user wins or draw)> 
